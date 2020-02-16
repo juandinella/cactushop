@@ -32,6 +32,15 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
+    },
+    {
+      resolve: "gatsby-plugin-snipcart",
+      options: {
+        apiKey: process.env.SNIPCART_API,
+        autopop: true,
+        js: "https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.js",
+        styles: "https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.css"
+      }
     }
   ]
 };
