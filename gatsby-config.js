@@ -2,14 +2,12 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-// Define site URL here
 let URL;
 if (process.env.NODE_ENV === 'production') {
-  URL = 'https://cactusauria.com';
+  URL = "https://eloquent-bose-8068bf.netlify.com/";
 } else {
   URL = 'http://localhost:8000';
 }
-
 module.exports = {
   siteMetadata: {
     title: `Cactu Ecommerce <3`,
