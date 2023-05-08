@@ -5,7 +5,7 @@
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.4.0",
-    "gatsby": "^2.19.12",
+    "gatsby": "^5.9.0",
     "gatsby-image": "^2.2.40",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-resolve-src": "^2.0.0",
